@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity2"
+    android:background="@color/Primary"
+    >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/logodk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:text="DigiKov"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:textSize="42sp"
+        android:textColor="@color/white"
+        android:id="@+id/textdk"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textdk"
+        android:text="Bantu Kelola Usaha Konveksimu "
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:id="@+id/textdk2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:layout_below="@id/textdk2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-24dp"
+        android:layout_marginRight="-6dp"
+        android:layout_marginBottom="-57dp"
+        android:src="@drawable/ilustrasi"/>
+
+
+</RelativeLayout>
